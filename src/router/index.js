@@ -1,11 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
+
 import ShopView from '../views/ShopView.vue'
+
 
 const routes = [
   {
     path: '/',
     name: 'shop',
     component: ShopView
+
   },
   {
     path: '/about',
